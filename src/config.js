@@ -1,5 +1,5 @@
-import path from 'path'
-import * as fontkit from 'fontkit'
+import path from 'node:path'
+import * as fontkit from 'npm:fontkit'
 
 const _config = {}
 const fonts = {}

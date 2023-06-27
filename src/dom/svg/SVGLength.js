@@ -115,6 +115,7 @@ export class SVGLength {
  */
 function parseValue(valueString, fallback = true) {
   const [, rawValue, rawUnit] = (valueString || '').match(valuePattern) || []
+  // @ts-ignore
   const unit = unitByString[(rawUnit || '').toLowerCase()]
   if (rawValue !== undefined && unit !== undefined) {
     return [parseFloat(rawValue), unit]

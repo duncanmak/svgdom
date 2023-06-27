@@ -74,7 +74,7 @@ const requestAnimationFrame = callback => {
 
 const nowOffset = globalThis.Date.now()
 const performance = {
-  now: () => Date.now() - nowOffset
+  now: () => globalThis.Date.now() - nowOffset
 }
 
 const winProps = {

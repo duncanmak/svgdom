@@ -1,4 +1,4 @@
-import sizeOf from 'image-size'
+import sizeOf from 'npm:image-size'
 import { Event } from '../Event.js'
 import { HTMLElement } from './HTMLElement.js'
 // import { getFileBufferFromURL } from '../../utils/fileUrlToBuffer.js'

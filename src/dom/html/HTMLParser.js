@@ -1,4 +1,4 @@
-import sax from 'sax'
+import sax from 'npm:sax'
 
 // TODO: Its an XMLParser not HTMLParser!!
 export const HTMLParser = function (str, el) {
